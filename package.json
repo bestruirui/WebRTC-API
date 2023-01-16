@@ -33,7 +33,7 @@
     "xss": "^1.0.8"
   },
   "scripts": { 
-    "server": "nodemon index.js",
+    "server": "nodemon index.js"
   },
   "eslintConfig": {
     "extends": "react-app"
