@@ -1,0 +1,9 @@
+services:
+  # A Docker web service
+  - type: web
+    name: WebRTC-API
+    env: node
+    repo: https://github.com/bestruirui/WebRTC-API.git # optional
+    region: oregon # optional (defaults to oregon)
+    plan: free # optional (defaults to starter)
+    healthCheckPath: /
